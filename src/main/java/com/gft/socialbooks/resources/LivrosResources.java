@@ -19,6 +19,9 @@ import com.gft.socialbooks.domain.Comentario;
 import com.gft.socialbooks.domain.Livro;
 import com.gft.socialbooks.services.LivrosService;
 
+import io.swagger.annotations.Api;
+
+@Api(tags = "Livros")
 @RestController
 @RequestMapping("/livros")
 public class LivrosResources {
